@@ -1,6 +1,6 @@
 import os
 class Stack:
-    def __init__(self, size):
+    def __init__(self,size):
         self.items = []
         self.size = size
         self.top=-1
