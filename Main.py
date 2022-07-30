@@ -21,7 +21,7 @@ class Stack:
             del self.items[self.top]
             self.top-=1
     def status(self):
-        for i in self.items:
+        for i in self. items:
             print(i)
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
